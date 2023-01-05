@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        
+        
+        <title>Willyg's Site Bruv</title>
+    </head>
+
+
+    <body>
+
+        <table cellspacing = "20">
+            <!--
+                no header in this table, so no need for <thead>. 
+                You can do this without tbody, but I liked having it there
+            -->
+
+            <tbody>
+                <tr>
+                    <td><img src="images/download.jpg" alt="bootstrap logo"></td>
+                    <td>
+                        <h1>Will Griner</h1>
+                        <p><em>Founder and CEO of <strong>Speeding Calculator™</strong></em></p>
+                        <p>I'm a software engineering student, who is learning web devlopment</p>
+                    </td>
+                </tr>
+                
+            </tbody>
+            
+          
+            
+        </table>
+        
+        <p>
+            <i>calculate speeds! italicised</i>
+            <br>
+            <em>calculate speeds! emphasized</em>
+
+
+             <!--use <em> over <i>
+                <em> tells the computer  the text should be emphasized AND changes the visual
+                <i> just changes visually-->
+
+            <!--same reason to use <strong> over <bold>-->
+            
+            
+            <br>
+            <strong>da strong text</strong>
+            
+
+        </p>
+
+
+        <!--src == link address or file for your image-->
+        <!--alt == alternative text which will be displayed if image can't load-->
+        <!--google uses alt text to decide where your website shows up-->
+        <!--so make your alt text related to your website-->
+        <!--   <img src="https://preview.redd.it/b11bk9b01yu81.jpg?width=640&crop=smart&auto=webp&s=4a6cf34c9d861d4dcd2bdf275d8580b676bea1c2" alt="Will Griner being swag">   -->
+        <!--the above image is hosted on reddit, if reddit goes down, you won't be able to access the image this way anymore-->
+        <!--below is how to add images that are downloaded-->
+        <!-- <img src="images/download.jpg" alt="bootstrap logo"> -->
+        <br>
+
+        <!-- <a> == hyperlink tag -->
+        <!--href is the link, text after is the display text on the website-->
+        <a href="https://www.youtube.com/@bootstrapbilly7523">BootStrapTube</a>
+        <br>
+        <!--can put another html file in for href-->
+        <a href="hobbies.html">hobbies</a>
+        <br>
+        <a href="contact_me.html">Contact Me</a>
+
+
+        
+
+        <hr size = "5">
+
+        <h3>Education: Bachelor's of Software Engineering, Iowa state, Class of 2025</h3>
+        <br>
+        <p>Projects:</p>
+        <ul>
+            <li>Speeding Calculator™</li>
+            <li>Minecraft Mod</li>
+            <li>Personal Website</li>
+            <li>Dicee Game</li>
+        </ul>
+        <br>
+
+        <hr>
+
+        <h3>Work Experience</h3>
+       
+        <!--
+            <tr> == table row (x axis)
+            <td> == table data (column, y axis) note that columns are created per <td> you add. However, the <td> needs a header to be under. Otherwise nothing will appear.
+            <thead> == table header
+            <tbody> == table body
+            <tfoot> == table footer
+            <th> == table header data cell. <td>, but with header properties. That means it will be bolded. (90% sure, it might do more stuff too idk for sure yet)
+
+            You can achieve the same result without using table header, body, and footer
+            however it's good practice to use them, so you can select and modify the entire header, body, or footer at once
+
+        -->
+
+    <!-- table visual
+
+
+
+        <tr>    <th>Dates</th>      <th>Work</th>                       <th>Test</th>
+        
+        
+        <tr>    <td>2018-19</td>    <td>Lead Cashier at Casey's</td>    <th>Test</th>
+
+        <tr>    <td>2021</td>       <td>Research Faciility</td>         <td>test 2</td>
+
+
+
+    -->
+
+
+
+        <!--can do <table border = "1"> if you want a 1 pixel thick border for your table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                    <th>Test</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>2018-19</td>
+                    <td>Lead Cashier at Casey's</td>
+                    <td> td test</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Research Faciility</td>
+                    <td>test 2</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+
+          
+        </table>
+
+
+        <hr>
+
+        <h3>Skills</h3>
+
+        
+
+
+        <!--
+
+            a table with 1 row and 2 datas
+            a table is inside each data
+
+                     ↓
+                     ↓
+                     ↓
+                     ↓
+        -->
+
+        <table border="1">
+
+                <tr>
+                    <td>
+                        <table cellspacing = "15">
+
+                            <tr>
+                                <td>Object-oriented Programming</td>
+                                <td>⭐⭐⭐⭐</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>⭐⭐⭐</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>CSS </td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                    
+                    <td>
+                        <table cellspacing = "15">
+                            </tr>
+                                <td>Public Speaking</td>
+                                <td>⭐⭐⭐⭐⭐</td>
+                            <tr>
+                                <td>Video Editing</td>
+                                <td>⭐⭐</td>
+                            </tr>
+
+                            <tr>
+                                <td>Boxing</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+        
+        </table>
+
+        <hr>
+
+        <br>
+        
+        <a href="inputs.html">input testing</a> 
+ 
+
+    </body>
+
+
+</html>
